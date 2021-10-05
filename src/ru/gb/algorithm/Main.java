@@ -14,10 +14,7 @@ public class Main {
     //  -. Удаление элемента массива с неизвестным индексом без сдвига  -  O(n)
 //      -. Удаление элемента массива с неизвестным индексом со сдвига  -  O(n)
 //.
-
-
-
-
+    
     public static void main(String[] args) {
      //   3. Определить сложность следующих алгоритмов. Сколько произойдет итераций?
       //          a)
@@ -66,7 +63,7 @@ public class Main {
         public static BigInteger fib(BigInteger n) {
             if (n.equals(BigInteger.ONE)) {
                 return BigInteger.ZERO;
-            }
+            }                                                   //O(2^n)
             if (n.equals(BigInteger.TWO)) {
                 return BigInteger.ONE;
             }
